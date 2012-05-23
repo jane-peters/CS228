@@ -1,0 +1,66 @@
+package edu.iastate.cs288.hw1;
+
+/**
+ * @author JPeters
+ *
+ */
+public class Boxtop implements Comparable
+{
+	private String cerealName;
+	private String companyName;
+	
+	/**
+	 * @param cerealName
+	 * @param companyName
+	 */
+	public Boxtop(String cerealName, String companyName) 
+	{
+		this.cerealName = cerealName;
+		this.companyName = companyName;
+	}
+
+	/**
+	 * @return the cerealName
+	 */
+	public String getCerealName() 
+	{
+		return cerealName;
+	}
+
+	/**
+	 * @param cerealName the cerealName to set
+	 */
+	public void setCerealName(String cerealName) 
+	{
+		this.cerealName = cerealName;
+	}
+
+	/**
+	 * @return the companyName
+	 */
+	public String getCompanyName() 
+	{
+		return companyName;
+	}
+
+	/**
+	 * @param companyName the companyName to set
+	 */
+	public void setCompanyName(String companyName) 
+	{
+		this.companyName = companyName;
+	}
+
+	/**
+	 * (non-Javadoc)
+	 * @see java.lang.Comparable#compareTo(java.lang.Object)
+	 */
+	@Override
+	public int compareTo(Object arg0) 
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}

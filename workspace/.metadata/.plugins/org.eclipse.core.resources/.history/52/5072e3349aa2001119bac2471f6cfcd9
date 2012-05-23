@@ -1,0 +1,63 @@
+package edu.iastate.cs288.hw1;
+import java.util.Arrays;
+
+/**
+ * @author JPeters
+ *
+ */
+public class ItemSafe<T> 
+{
+	int maxNum;
+	Array<T> seedArr;
+	private Object isafe;
+	
+	/**
+	 * @param maxNum
+	 * @param seedArr
+	 */
+	public ItemSafe(int maxNum, Array<T> seedArr) {
+		this.maxNum = maxNum;
+		this.seedArr = seedArr;
+		
+		isafe = Arrays.copyOf(seedArr, maxNum);
+	}
+
+	/*
+	 * Method: add()
+	 * Adds an object to the next unfilled cell of isafe.
+	 * 
+	 */
+	public void add(T toBeAdded)
+	{
+		//TODO
+	}
+	
+	/*
+	 * Method: remove()
+	 * Removes an object at the given index of isafe.
+	 * 
+	 */
+	public static void remove(int index)
+	{
+		//TODO
+	}
+	
+	/*
+	 * Method: getSortedArray()
+	 * Returns a sorted version of isafe.
+	 * 
+	 */
+	public static void getSortedArray()
+	{
+		//TODO
+	}
+	
+	/*
+	 * 
+	 */
+	protected static void getIsafe()
+	{
+		//TODO
+	}
+
+}

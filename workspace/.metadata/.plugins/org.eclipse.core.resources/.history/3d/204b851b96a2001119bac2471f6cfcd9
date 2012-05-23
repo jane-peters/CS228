@@ -1,0 +1,60 @@
+/**
+ * 
+ */
+package edu.iastate.cs288.hw1;
+import java.util.Arrays;
+
+/**
+ * @author JPeters
+ *
+ */
+public class Boxtop 
+{
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+	/*
+	 * Method: add()
+	 * Adds an object to the next unfilled cell of isafe.
+	 * 
+	 */
+	public static void add()
+	{
+		
+	}
+	
+	/*
+	 * Method: remove()
+	 * Removes an object at the given index of isafe.
+	 * 
+	 */
+	public static void remove()
+	{
+		
+	}
+	
+	/*
+	 * Method: getSortedArray()
+	 * Returns a sorted version of isafe.
+	 * 
+	 */
+	public static void getSortedArray()
+	{
+		
+	}
+	
+	/*
+	 * 
+	 */
+	protected static void getIsafe()
+	{
+		
+	}
+}
